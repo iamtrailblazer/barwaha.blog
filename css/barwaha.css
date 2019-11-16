@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Big Shoulders Text', cursive;
+    background: white;
+}
+
+#headerBlock{
+    position: relative;
+    z-index: 1;
+    height:100px;
+    
+}
+
+
+
+.rightMenu ul>li>a , .leftMenu>ul>li>a{
+    color: white;
+    display: inline-block ;
+    padding:10px;   
+}
+.rightMenu ul>li , .leftMenu>ul>li{
+    display:inline-block;
+    text-transform: initial;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+}
+.logo{
+    float:left;
+    margin:-1px -42px 0px 193px;
+    text-decoration: none;
+}
+.logo>h1{
+    font-weight: lighter;
+    color:black;
+    font-size: 40px;
+}
+.leftMenu{
+    float: left;
+    margin: 43px 0px 00 0px;
+}
+
+.rightMenu{
+    float: right;
+    margin: 25px 222px 0px 0px;
+}
+.sicon{
+    inline-size: 34px;
+}
+.micon{
+    position: relative;
+    top: -12px;
+}
+
+
+
+
+
+#sliderSection{
+    background:red;
+    background: url("../images/east-nimar-omkareshwar-148410039242-orijgp.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:600px;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top:0px;  
+}
+#sliderSection h1{
+    font-size: 55px;
+    text-decoration: none;
+    font-weight: lighter;
+    color:#eee;
+}
+#sliderSection h3{
+font-size:23px;
+font-weight:lighter;
+text-decoration: none;
+color:#eee;
+margin-top: 128px;
+/* border-left: 3px solid red; */
+}
+
+
+/* news feed section start here  */
+#newsFeed{
+    margin-left: 200px;
+    background: white;
+    margin-right: 200px;
+    position: relative;
+    top: 353px;
+    /* text-align: center; */
+    
+
+
+}
+
+.dp{
+height:115px;
+width:115px;
+border-radius: 100px;
+back
+
+}
+
+.proMenu li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.imgname{
+    width:-webkit-fill-available;
+    height:fit-content;
+}
+
+.middledp{
+    position: relative;
+    top: -148px;
+    text-align: center;
+    position: relative;
+    top: 332px;
+}
+.iconname{
+    position: relative;
+    top: 25px;
+    left: -40px;
+}
+
+.middledp h2 ,.middledp h3{
+    color: #eee;
+    font-weight: light;
+    font-display: initial;
+    letter-spacing: 3px;;
+
+}
+
+
